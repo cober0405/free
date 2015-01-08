@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+.p/* p元素基本样式 */
+{
+	text-align: center;
+	border: solid 0px #ccc;
+	font-size: 14px;
+	line-height: 350px;
+}
+
+.p0/* p元素随机样式 */
+{
+	background: transparent url("../1.gif") 0 0 repeat;
+}
+
+.p1/* p元素随机样式 */
+{
+	background: transparent url("../3.gif") 0 0 repeat;
+}
+
+.p2/* p元素随机样式 */
+{
+	background: transparent url("../4.gif") 0 0 repeat;
+}
+
+.p3/* p元素随机样式 */
+{
+	background: transparent url("../5.gif") 0 0 repeat;
+}

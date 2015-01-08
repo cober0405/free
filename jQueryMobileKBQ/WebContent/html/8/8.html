@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" name="viewport"
+	content="width=device-width,initial-scale=1" />
+<link href="../../css/jquery.mobile-1.4.5.css" rel="Stylesheet"
+	type="text/css" />
+<script src="../../js/jquery-2.0.0.js" type="text/javascript"></script>
+<script src="../../js/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+<title>jQuery Mobile</title>
+
+</head>
+<body>
+	<div data-role="page" id="page1">
+		<div data-role="header">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1" class="ui-btn-active">启用</a></li>
+					<li><a href="#page2">禁用</a></li>
+				</ul>
+			</div>
+		</div>
+		<ul data-role="listview">
+			<li><a href="#">计算机</a></li>
+			<li><a href="#">社科</a></li>
+			<li><a href="#">文艺</a></li>
+		</ul>
+		<div data-role="footer">
+			<h4>2010231020版权所有</h4>
+		</div>
+	</div>
+	<div data-role="page" id="page2">
+		<div data-role="header">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1">启用</a></li>
+					<li><a href="page2" class="ui-btn-active">禁用</a></li>
+				</ul>
+			</div>
+		</div>
+		<ul data-role="listview">
+			<li data-icon="false"><a href="#">计算机</a></li>
+			<li data-icon="false"><a href="#">社科</a></li>
+			<li data-icon="false"><a href="#">文艺</a></li>
+		</ul>
+		<div data-role="footer">
+			<h4>2010231020版权所有</h4>
+		</div>
+	</div>
+</body>
+</html>

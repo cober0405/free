@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" name="viewport"
+	content="width=device-width,initial-scale=1" />
+<link href="../css/jquery.mobile-1.4.5.min.css" rel="Stylesheet"
+	type="text/css" />
+<script type="text/javascript" src="../js/jquery-2.0.0.js"></script>
+<script type="text/javascript" src="../js/jquery.mobile-1.4.5.js"></script>
+<title>jQuery Mobile 页面缓存</title>
+<script type="text/javascript">
+$(function(){
+	$.mobile.page.prototype.options.domCache = true;
+})
+</script>
+</head>
+<body>
+	<div data-role="page" data-dom-cache="true">
+		<div data-role="header">
+			<h1>缓存页面</h1>
+		</div>
+		<div data-role="content">
+			<p>这是一个被缓存的页面
+			</p>
+		</div>
+		<div data-role="footer">
+			<h4>2010231020版权所有</h4>
+		</div>
+	</div>
+</body>
+</html>

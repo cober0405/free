@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" name="viewport"
+	content="width=device-width,initial-scale=1" />
+<link href="../../css/jquery.mobile-1.4.5.min.css" rel="Stylesheet"
+	type="text/css" />
+<script src="../../js/jquery-2.0.0.js" type="text/javascript"></script>
+<script src="../../js/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+<title>jQuery Mobile 添加按钮</title>
+</head>
+<body>
+	<div data-role="page" id="e1">
+		<div data-role="header" data-theme="a" data-position="inline">
+			<h1>图片</h1>
+			<a href="#e2" data-icon="arrow-r" class="ui-btn-right">下一张</a>
+		</div>
+		<div data-role="content">
+			<span class="img-spn"><img alt="" src="../../dog.jpg"/></span>
+		</div>
+		<div data-role="footer">
+			<h4>2010231020版权所有</h4>
+		</div>
+	</div>
+	<div data-role="page" id="e2">
+		<div data-role="header" data-position="inline">
+			<a href="#e1" data-icon="arrow-l" class="ui-btn-left" data-add-back-btn="false">上一张</a>
+			<h1>图片</h1>
+		</div>
+		<div data-role="content">
+		<span class="img-spn">
+		<img alt="" src="../../p.jpg"/>
+		</span>
+		</div>
+		<div data-role="footer">
+			<h4>2010231020版权所有</h4>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" name="viewport"
+	content="width=device-width,initial-scale=1" />
+<link rel="Stylesheet" type="text/css"
+	href="../../css/jquery.mobile-1.4.5.min.css" />
+<script src="../../js/jquery-2.0.0.js" type="text/javascript"></script>
+<script src="../../js/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+<title>jQuery Mobile 单选复选按钮</title>
+<script type="text/javascript">
+$(function(){
+	$("input[type='radio']").bind("change",
+			function(event,ui){
+		$("#pTip").html(this.value);
+	})
+})
+</script>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="header">
+			<h1>头部栏</h1>
+		</div>
+		<div data-role="content">
+		<fieldset data-role="controlgroup" data-type="vertical">
+		<input type="radio" name="rdoA" id="rdo1" value="1" checked="checked" />
+		<label for="rdo1">A</label>
+		<input type="radio" name="rdoA" id="rdo2" value="2"  />
+		<label for="rdo2">B</label>
+		<input type="radio" name="rdoA" id="rdo3" value="3"  />
+		<label for="rdo3">C</label>
+		</fieldset>
+			<p id="pTip"></p>
+		</div>
+		<div data-role="footer">
+			<h4>2010231020版权所有</h4>
+		</div>
+	</div>
+</body>
+</html>

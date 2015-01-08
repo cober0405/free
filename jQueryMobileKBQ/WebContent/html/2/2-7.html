@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312" name="viewport"
+	content="width=device-width,initial-scale=1" />
+<link href="../css/jquery.mobile-1.4.5.min.css" rel="Stylesheet"
+	type="text/css" />
+<script type="text/javascript" src="../js/jquery-2.0.0.js"></script>
+<script type="text/javascript" src="../js/jquery.mobile-1.4.5.js"></script>
+<title>jQuery Mobile 中的page create事件</title>
+<script type="text/javascript">
+$("#e1").live("pagebeforecreate",function(){
+	alert("正在创建页面！");
+})
+$("#e1").live("pagecreate",function(){
+	alert("页面创建完成！");
+})
+</script>
+</head>
+<body>
+	<div data-role="page" id="e1">
+		<div data-role="header">
+			<h1>创建页面</h1>
+		</div>
+		<div data-role="content">
+			<p>页面创建完成！</p>
+		</div>
+		<div data-role="footer">
+			<h4>2010231020版权所有</h4>
+		</div>
+	</div>
+</body>
+</html>
