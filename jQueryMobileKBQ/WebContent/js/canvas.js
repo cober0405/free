@@ -22,5 +22,6 @@ $(function(){
 		cxt.fillStyle = "blue";
 		cxt.fill();
 		//$tip.html("X:" + (tapX - 1) + "Y:" + tapY);
+		alert("2Btengshigecaibi");
 	})
 })
